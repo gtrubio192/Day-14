@@ -1,0 +1,44 @@
+Skip to content
+ This repository
+Explore
+Gist
+Blog
+Help
+Gabe gtrubio192
+ 
+6  Watch 
+  Star 3
+ Fork 2TIY-Austin-Front-End-Engineering/Jan2015
+ branch: master  Jan2015/day-14/in-class/example 5/main.css
+Aaron Larneralarner 2 hours ago In class examples for day 14
+1 contributor
+27 lines (24 sloc)  0.326 kb RawBlameHistory   
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	display: block;
+	float: left;
+	width: 25%;
+	background: #666;
+	color: #ccc;
+	line-height: 3em;
+	text-align: center;
+/*	border-right: 1px solid black;
+*/}
+/*
+a:last-child {
+	border-right: 0;
+}*/
+
+a > div {
+	border-right: 1px solid black;
+}
+
+a:last-child > div {
+	border-right: 0;
+}
+Status API Training Shop Blog About
+© 2015 GitHub, Inc. Terms Privacy Security Contact

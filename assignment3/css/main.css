@@ -1,0 +1,55 @@
+ html, body {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	display: block;
+	float: left;
+	width: 25%;
+	background: #666;
+	color: #ccc;
+	line-height: 3em;
+	text-align: center;
+/*	border-right: 1px solid black;
+*/}
+/*
+a:last-child {
+	border-right: 0;
+}*/
+h1{
+	text-align: center;
+}
+a > div {
+	border-right: 1px solid black;
+}
+
+a:last-child > div {
+	border-right: 0;
+}
+#content{
+	margin: 0 auto;
+	text-align: center; 
+	border: 5px solid silver;
+	border-radius: 25%;
+
+}
+table {
+	background:#CCC;
+	border:1px solid #000;
+	margin: 0 auto;
+
+}
+table td {
+	padding:15px;
+	border:1px solid #DDD;
+}
+#dynamictable{
+	margin-bottom: 25px;
+}
+#search-box, #search-button{
+	text-align: center;
+	/*margin: 0 auto;*/
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
